@@ -23,42 +23,42 @@ When using cat with no arugments, the user is put into editing mode. User must e
 ## Using each command with a path to a DIRECTORY as an argument
 
 **1. cd**    
-[user@sahara ~]$ cd lecture1  
-[user@sahara ~/lecture1]$   
+*[user@sahara ~]$ cd lecture1  
+[user@sahara ~/lecture1]$*     
 When using cd with a path to a directory as an argument cahanges the directory to the given directory
 
 **2. ls**      
-[user@sahara ~]$ cat  
+*[user@sahara ~]$ cat  
 [user@sahara ~]$ ls lecture1  
 Hello.class  Hello.java  messages  README  
-[user@sahara ~]$   
+[user@sahara ~]$*     
 When using LS with a path to a directory as an argument, the contents of the given directory is listed.  
 
 **3. cat**      
-[user@sahara ~]$ cat  
+*[user@sahara ~]$ cat  
 [user@sahara ~]$ cat lecture1  
-cat: lecture1: Is a directory   
+cat: lecture1: Is a directory*     
 When using cat with a path to a directory as an argument, the console returns an error because cat cannot be given a directory as an argument. This input returns in an error.   
 
 ## Using each command with a path to a FILE as an argument  
 
 **1. cd**    
-[user@sahara ~/lecture1]$ cd  
+*[user@sahara ~/lecture1]$ cd  
 [user@sahara ~]$ cd lecture1/messages/da.txt  
 bash: cd: lecture1/messages/da.txt: Not a directory  
-[user@sahara ~]$   
+[user@sahara ~]$*     
 When using CD with a path to a file as an arugment, an error is returned as CD required a directory as an arfument. This input returns in an error.  
 
 **2. ls**      
-[user@sahara ~]$ ls lecture1/messages/da.txt  
+*[user@sahara ~]$ ls lecture1/messages/da.txt  
 lecture1/messages/da.txt  
-[user@sahara ~]$   
+[user@sahara ~]$*     
 When using LS with a path to a file as an argument, filepath is returned.  
 
 **3. cat**      
-[user@sahara ~]$ cat lecture1/messages/da.txt  
+*[user@sahara ~]$ cat lecture1/messages/da.txt  
 Hej Verden!  
-[user@sahara ~]$   
+[user@sahara ~]$*     
 When using cat with a path to a file as an argument, the contents of the file is resulted. In this case the text file contains the text "Hey Verden!"  
 
 
