@@ -1,7 +1,5 @@
 ## Using each command with NO ARGUMENTS
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
+
 **1. cd**  
 *[user@sahara ~/lecture1]$ cd  
 [user@sahara ~]$*  
