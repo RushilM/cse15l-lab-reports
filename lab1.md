@@ -33,51 +33,50 @@ When using cat with no arugments, the user is put into editing mode. User must e
 [user@sahara ~]$ cd lecture1  
 [user@sahara ~/lecture1]$
 ```
-When using cd with a path to a directory as an argument changes the directory to the given directory. In this example we start off in the working director /home, after the command is called the working directory is changed to /home/lecture1.
+When using cd with a path to a directory as an argument changes the directory to the given directory. In this example we start off in the working directory /home, after the command is called the working directory is changed to /home/lecture1.
 
 **2. ls**     
 ```
-*[user@sahara ~]$ cat  
+[user@sahara ~]$ cat  
 [user@sahara ~]$ ls lecture1  
 Hello.class  Hello.java  messages  README  
-[user@sahara ~]$*
+[user@sahara ~]$
 ```    
 When using LS with a path to a directory as an argument, the contents of the given directory is listed. The working directory in this example is /home, the working directory is unchanged throughout this example as ls does not change the working directory. 
 
 **3. cat**  
 ```
-*[user@sahara ~]$ cat  
+[user@sahara ~]$ cat  
 [user@sahara ~]$ cat lecture1  
-cat: lecture1: Is a directory*
+cat: lecture1: Is a directory
 ```   
-When using cat with a path to a directory as an argument, the console returns an error because cat cannot be given a directory as an argument. This input returns in an error.   
+When using cat with a path to a directory as an argument, the console returns an error because cat cannot be given a directory as an argument. This input returns in an error. The working directory in this example is /home and it remains /home throughout this example.  
 
 ## Using each command with a path to a FILE as an argument  
 
 **1. cd**  
 ```
-*[user@sahara ~/lecture1]$ cd  
 [user@sahara ~]$ cd lecture1/messages/da.txt  
 bash: cd: lecture1/messages/da.txt: Not a directory  
-[user@sahara ~]$*
+[user@sahara ~]$
 ```   
-When using CD with a path to a file as an arugment, an error is returned as CD required a directory as an arfument. This input returns in an error.  
+When using CD with a path to a file as an arugment, an error is returned as CD required a directory as an argument. This input returns in an error. We start in this example with the working directory /home after the command is called, the directory is unchanged because CD was called with inproper argument type. 
 
 **2. ls**    
 ```
-*[user@sahara ~]$ ls lecture1/messages/da.txt  
+[user@sahara ~]$ ls lecture1/messages/da.txt  
 lecture1/messages/da.txt  
-[user@sahara ~]$*
+[user@sahara ~]$
 ```    
-When using LS with a path to a file as an argument, filepath is returned.  
+When using LS with a path to a file as an argument, filepath is returned. The working directory is /home, after the ls command the directory remains as /home as ls does not change the working directory. Whenever a path to a file is given to the ls command it will return the path to that file as it was given in the command. 
 
 **3. cat**     
 ```
-*[user@sahara ~]$ cat lecture1/messages/da.txt  
+[user@sahara ~]$ cat lecture1/messages/da.txt  
 Hej Verden!  
-[user@sahara ~]$*
+[user@sahara ~]$
 ```     
-When using cat with a path to a file as an argument, the contents of the file is resulted. In this case the text file contains the text "Hey Verden!"  
+When using cat with a path to a file as an argument, the contents of the file is resulted. In this case the text file contains the text "Hey Verden!". The working directory in this example is /home, after the command is called the working directory remains as /home. 
 
 
 
