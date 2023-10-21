@@ -72,7 +72,7 @@ The resulting field changes is that 'message' gets updated to "1. Hello\n2.How+a
 **The path to the private key and for public SSH key on local directory**  
 ![Alt text](Lab2CSE15LScreenshot4.png)
 
-**Accesing ieng6 course specfifc account without being prompted for a password.**
+**Accesing ieng6 course specific account without being prompted for a password.**
 ![Alt text](Lab2CSE15LScreenshot3.png)
 
 
