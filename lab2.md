@@ -55,7 +55,7 @@ Relevant argurments are the URI object which will get the path '/add-message' an
 The resulting field changes is that 'message' gets updated to "1.Hello\n". Also the messageCounter is incremented to reflect that 'Hello' is the first message. 
 
 
-
+**Screenshot 2: Adding the message "How are you"**
 ![Alt text](Lab2CSE15LScreenshot2.png)
 
 The method 'handleRequest(URI url)' in the 'StringHandler' class. 
@@ -65,3 +65,20 @@ Relevant argurments are the URI object which will get the path '/add-message' an
 Note: the %20 represents the hexadecimal value for the space character. 
 
 The resulting field changes is that 'message' gets updated to "1. Hello\n2.How+are+you\n". Also the messageCounter is incremented to reflect that 'How are you' is the second message. 
+
+
+## Part 2
+
+**The path to the private key and for public SSH key on local directory**  
+![Alt text](Lab2CSE15LScreenshot4.png)
+
+**Accesing ieng6 course specfifc account without being prompted for a password.**
+![Alt text](Lab2CSE15LScreenshot3.png)
+
+
+## Part 3
+
+Using RSA encryption to save a private key on to your public computer is something I didn't know about. I think this is a great way to not have to enter your password when accessing a remote server from a trusted personal device. It was cool to see the physical RSA key that was being used aswell, because we know that RSA encryption is used widely today but we do not actually get to see the key that is in use. 
+
+
+
