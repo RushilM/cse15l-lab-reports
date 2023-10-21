@@ -45,3 +45,6 @@ class StringServer {
 }
 
 ```
+
+![Alt text](Lab2CSE15LScreenshot1.png)
+![Alt text](Lab2CSE15LScreenshot2.png)
