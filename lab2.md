@@ -68,9 +68,11 @@ The resulting field changes is that 'message' gets updated to "1. Hello\n2.How+a
 
 
 ## Part 2
+**The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)**
+![Alt text](Lab2Screenshot6.png)
 
-**The path to the private key and for public SSH key on local directory**  
-![Alt text](Lab2CSE15LScreenshot4.png)
+**The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)**  
+![Alt text](Lab2Screenshot5.png)
 
 **Accesing ieng6 course specific account without being prompted for a password.**
 ![Alt text](Lab2CSE15LScreenshot3.png)
