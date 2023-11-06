@@ -61,19 +61,49 @@ This fixes the issue because the previous solution was only switching the second
 
 I choose the command "find". 
 
-The 4 interesting command-line options are: -ls, -type f, -type d. 2 examples of each are shown below. 
+The 4 interesting command-line options are: -ls, -type f, -type d, -mepty. 2 examples of each are shown below. 
 
 **-ls**
 The -ls option lists the contents fo a directory recursively, this means it lists all the subdirectories within the target. This is very similar to the -ls R command. The output is shown below, the input was:  *find /c/Users/Rushi/OneDrive/Documents/GitHub/docsearch/technical -ls*
 ![Alt text](Lab3Screenshot2.png)
 
-Here is another example of -ls in find. This time it is recursively finding everything in /technical/911reports
+Here is another example of -ls in find. This time it is recursively finding everything in ~/technical/911reports
 
 ![Alt text](Lab3Screenshot3.png)
 
-****
+**-type f**
 
+The -type f option lists only the files within the given file path. Below are all the files in ~/technical/911reports.
 
+![Alt text](Lab3Screenshot4.png)
 
+Below are all the files in ~/technical/biomed
+
+The input was *find /c/Users/Rushi/OneDrive/Documents/GitHub/docsearch/technical/biomed/ -type f*
+The output is in the screenshot below:
+![Alt text](Lab3Screenshot5.png)
+
+**-type d**
+
+The -type d options lists only the directories within the given file path. Below are all the directories within ~/technical
+![Alt text](Lab3Screenshot6.png)
+
+Below are all the directories within ~/technical/911Report/ (There are no directories within ~/technical/911Report/)
+
+![Alt text](Lab3Screenshot7.png)
+
+**-empty**
+
+The -empty option lists the empty files within the given directory. Below is an example showing all the empty files within  ~/technical/911Reports/. (It shows that there are no empty files within ~/technical/911Reports/)
+
+![Alt text](Lab3Screenshot8.png)
+
+The example below seaches the entire ~/technical directory for empty files. The output shows that there are no empty files within the whole ~/technical directory (Interesting, the ANC data set has not empty files!)
+
+![Alt text](Lab3Screenshot9.png)
+
+**Sources Cited**
+
+All commands were sourced from RedHat's official website from the following article "10 ways to use the Linux find command" (https://www.redhat.com/sysadmin/linux-find-command)
 
 
