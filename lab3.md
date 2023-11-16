@@ -47,7 +47,7 @@ As we can see from the console input from the tests. Lets break down the test th
 ```
 
 
-This test failed because of a Java assert error where 2 wwas expected but the value 4 was returned. The other test passed. 
+This test failed because of a Java assert error where 2 was expected in the output array but the value 4 was returned. The other test passed. 
 We can tell that this failure is because of a logical error in our ```reverseInPlace(int[] arr)``` function. The function does not correctly traverse half the list and swap the variables, instead it attempts to traverse the entire list and then swap the postions. We can fix this using a temporary varaibles and changing which variables the loop traverses over. 
 
 *The bug, as the before-and-after code change required to fix it*
