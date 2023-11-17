@@ -8,4 +8,9 @@ As we can see below simply entering this command will log us into the SSH server
 
 *Step 5*
 Cloning the fork of the repository using the SSH URL. It is very important for this step we use the SSH URL not the HTTPS URL. The SSH URL for this repository is ```git@github.com:ucsd-cse15l-s23/lab7.git```
-We know that this is a SSH URL because of the ```git@github.com:``` Since we know that we have the correct URL we can proceed with cloning using the 
+We know that this is a SSH URL because of the ```git@github.com:``` Since we know that we have the correct URL we can proceed with cloning using the ```git clone``` command as shown below.
+
+Keys Pressed: ```"git clone"<CTRL-C><CTRL-V><ENTER>```
+
+Once this command is executed we are shown that the repository is successfully cloned. 
+![Alt text](Lab4Screenshot2.png)
