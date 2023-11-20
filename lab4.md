@@ -33,6 +33,8 @@ Step 8 is the same as step 6. As a result I am able to utilize the command searc
 Keys Pressed: ```<UP><UP><UP><ENTER> <UP><UP><UP><ENTER>```
 
 ## Step 9
-Our last step is to commit and push our changes. We are able to do this because we cloned the repository using the SSH link. I have already set up SSH without password using keys so this step should be simple. First I do ```git add ListExamples.java``` to ensure add the ListExamples.java file to the list of files being commited. I then run ```git status``` to ensure the file is added to the list of files to be commited.  
+Our last step is to commit and push our changes. We are able to do this because we cloned the repository using the SSH link. I have already set up SSH without password using keys so this step should be simple. First I do ```git add ListExamples.java``` to ensure add the ListExamples.java file to the list of files being commited. I then run ```git status``` to ensure the file is added to the list of files to be commited. After this I run the ```git commit``` and write a short commit message. FInally I push to the repository using ```git push```. 
+
+Keys Pressed: ```"git add ListExamples.java" <ENTER> "git status" <ENTER> "git commit" <ENTER> "ListExamples bug fixed" ":wq" <enter> "git push" <enter>```
 
 
