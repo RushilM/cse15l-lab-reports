@@ -19,3 +19,10 @@ Once this command is executed we are shown that the repository is successfully c
 
 ## Step 6
 This step invloved using the javac command for running our tests. This was first introduced in Lab 4 and the command changes depending on operating system. I went to Lab 4 to find the appropriate command for windows which are the following ```local $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java``` & ```local $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests``` ArrayTests must be replaced with ```ListExamplesTests```
+
+Keys Pressed: ```<CTRL-C><CTRL-V> <DEL X10> "ListExamplesTests <ENTER><CTRL-C><CTRL-V>"```
+
+## Step 7
+This step involves changing index1 to index2 in order to fix the bug in the code. We are able to do this efficiently using VIM and some of the commands in normal mode before entering insert mode to make the wanted changes. The steps including opening the ```ListExamples.java``` file in VIM, using the arrow keys in normal mode to move the cursor, utilizing ```x``` in normal mode to delete a character, entering insert mode, adding the number "2", saving and closing. 
+
+Keys Pressed: ```<UP>UP>UP>UP>UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT> X I 2 <ESC> :wq```
