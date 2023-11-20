@@ -30,6 +30,9 @@ Keys Pressed: ```<UP>UP>UP>UP>UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT> X I 
 ## Step 8
 Step 8 is the same as step 6. As a result I am able to utilize the command search history to my advantage. As a result I used the up in search to find ```local $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java``` & ```local $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests```. I found the first command 3 up in search and after running it the second command was also 3 up in seach. 
 
-Keys Pressed: ```<UP><UP><UP><ENTER> <UP><UP><UP><ENTER> ```
+Keys Pressed: ```<UP><UP><UP><ENTER> <UP><UP><UP><ENTER>```
+
+## Step 9
+Our last step is to commit and push our changes. We are able to do this because we cloned the repository using the SSH link. I have already set up SSH without password using keys so this step should be simple. First I do ```git add ListExamples.java``` to ensure add the ListExamples.java file to the list of files being commited. I then run ```git status``` to ensure the file is added to the list of files to be commited.  
 
 
