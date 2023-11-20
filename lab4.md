@@ -22,19 +22,26 @@ This step invloved using the javac command for running our tests. This was first
 
 Keys Pressed: ```<CTRL-C><CTRL-V> <DEL X10> "ListExamplesTests <ENTER><CTRL-C><CTRL-V>"```
 
+![Alt text](Lab4TestFailing.png)
+
 ## Step 7
 This step involves changing index1 to index2 in order to fix the bug in the code. We are able to do this efficiently using VIM and some of the commands in normal mode before entering insert mode to make the wanted changes. The steps including opening the ```ListExamples.java``` file in VIM, using the arrow keys in normal mode to move the cursor, utilizing ```x``` in normal mode to delete a character, entering insert mode, adding the number "2", saving and closing. 
 
 Keys Pressed: ```<UP>UP>UP>UP>UP><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT><RIGHT> X I 2 <ESC> :wq```
+
+![Alt text](Lab4Screenshot4.png)
 
 ## Step 8
 Step 8 is the same as step 6. As a result I am able to utilize the command search history to my advantage. As a result I used the up in search to find ```local $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java``` & ```local $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests```. I found the first command 3 up in search and after running it the second command was also 3 up in seach. 
 
 Keys Pressed: ```<UP><UP><UP><ENTER> <UP><UP><UP><ENTER>```
 
+![Alt text](Lab4TestPassing.png)
+
 ## Step 9
 Our last step is to commit and push our changes. We are able to do this because we cloned the repository using the SSH link. I have already set up SSH without password using keys so this step should be simple. First I do ```git add ListExamples.java``` to ensure add the ListExamples.java file to the list of files being commited. I then run ```git status``` to ensure the file is added to the list of files to be commited. After this I run the ```git commit``` and write a short commit message. FInally I push to the repository using ```git push```. 
 
 Keys Pressed: ```"git add ListExamples.java" <ENTER> "git status" <ENTER> "git commit" <ENTER> "ListExamples bug fixed" ":wq" <enter> "git push" <enter>```
 
+![Alt text](Lab4commit.png)
 
