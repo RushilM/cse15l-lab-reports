@@ -6,7 +6,7 @@
 
 Student: Both tests seem to pass but I am getting 5 errors when run the bash script. Can someone please help? I have provided a screenshot of the output and my code. 
 
-I simply ran the code using test.sh: ```bash test.sh```
+I simply ran the code using test.sh: ```bash test.sh``` which is located in ```../Lab7/test.sh```. My error message indicates a failure in ```../Lab7/ListExamples.java```
 
 ![Alt text](Lab5Screenshot1.png)
 ![Alt text](Lab5Screenshot2.png)
