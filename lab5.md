@@ -9,13 +9,18 @@ Student: Both tests seem to pass but I am getting 5 errors when run the bash scr
 I simply ran the code using test.sh: ```bash test.sh``` which is located in ```../Lab7/test.sh```. My error message indicates a failure in ```../Lab7/ListExamples.java```
 
 ![Alt text](Lab5Screenshot1.png)
+
 ![Alt text](Lab5Screenshot2.png)
+
 ![Alt text](Lab5Screenshot4.png)
 
 TA: Take a look at your code carefully, you have intilaized "result", a new ArrayList on line 14, but keep in mind how scopes work in Java. Ensure that result is initalized within the merge function.
 
 Student: I see what I did wrong, thanks! The tests work now! Here are my changes:
 You were right, even though result was intialized on line 14, it was not itialized within the scope of the merge function!
+
+To fix the error I added ```    List<String> result = new ArrayList<>(); ``` on line 26 which means that result was intilalized within the scope of the merge function. This means that result could be called within merge now. 
+
 ![Alt text](Lab5Screenshot3.png)
 
 ## Part 2 - Reflection
